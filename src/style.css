@@ -1,0 +1,58 @@
+@font-face {
+  font-family: SfPro;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/sf-pro-rounded-regular.otf") format("opentype");
+  /* src: url("./assets/fonts/sf-pro-rounded-light.otf") format("opentype"); */
+}
+
+@font-face {
+  font-family: SfProRounded;
+  src: url("./assets/fonts/sf-pro-rounded-bold.otf") format("opentype");
+  /* src: url("./assets/fonts/sf-pro-rounded-light.otf") format("opentype"); */
+}
+
+@font-face {
+  font-family: SfProRoundedMedium;
+  src: url("./assets/fonts/sf-pro-rounded-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SfProRoundedNormal;
+  src: url("./assets/fonts/sf-pro-rounded-thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SfProRoundedSemibold;
+  src: url("./assets/fonts/sf-pro-rounded-semibold.otf") format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "SfPro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Courier New", Courier, monospace;
+}
+
+body {
+  background: #FAFAFC;
+}
+
+.font-r-b {
+  font-family: "SfProRounded", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Courier New", Courier, monospace;
+}
+
+.font-r-medium {
+  font-family: "SfProRoundedMedium", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif, "Courier New", Courier, monospace;
+}
+
+.font-r-normal {
+  font-family: "SfProRoundedNormal", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif, "Courier New", Courier, monospace;
+}
+
+.font-r-semibold {
+  font-family: "SfProRoundedSemibold", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif, "Courier New", Courier, monospace;
+}
